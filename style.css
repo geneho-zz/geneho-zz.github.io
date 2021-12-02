@@ -1,0 +1,172 @@
+@media only screen and (max-width: 300px) {
+  body {
+      background-color: white;
+      color: white;
+  }
+}
+
+.navbar-brand {
+	float: left; 
+    font-size: 30px;
+    font-family: verdana, Helvetica, sans-serif;
+    text-shadow: 2px 2px dimgray;
+
+}
+
+.border {
+	border: 1px solid black !important;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	font-family: verdana, Helvetica, sans-serif;
+    background: url(background.jpg);
+    background-color: black;
+    background-size: cover;
+}
+
+header{
+    margin-top: 30px;
+	margin-bottom: 10px;
+    background-color: transparent;
+}
+
+footer{
+	margin-top: 20px;
+    background-color: transparent;
+    color: darkgray;
+    font-size: 14px;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgray;
+    transition-duration: 1s;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightgray;
+    transition-duration: 1s;
+}
+
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.row {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.placeholder-img {
+	width: 300px;
+	height: 300px;
+	margin: 0 20px 0 0;
+	background: #d6d6d8;
+	border: 1px solid black !important;
+}
+
+.center .placeholder-img {
+	margin: 0 auto 20px auto;
+}
+
+.profile-img {
+    margin-top: 30px;
+	border: 1px solid gray !important;
+}
+
+.center .profile-img {
+	margin: 0 auto 20px auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.placeholder-img.right {
+	margin-right: 0;
+}
+
+.placeholder-img.left {
+	margin-left: 0;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.nav-link.active {
+	color: white;
+    padding: 8px;
+}
+
+section {
+	clear: both;
+}
+
+
+p, h4 {
+	color: white;
+}
+
+label {
+	color: black;
+}
+
+#email, #name, #comment, #subject {
+    border-radius: 0;
+} 
+
+.btn {
+    border-radius: 0;
+    margin-top: 10px;
+    transition-duration: 1s;
+}
+
+.contact-info {
+    margin-top: 10%;
+}
+
+.col-md-3 {
+    background: gray;
+    padding: 4%;
+    box-shadow: 10px 10px dimgray;
+}
+
+.col-md-9 {
+    background: darkgray;
+    padding: 4%;
+    box-shadow: 10px 10px dimgray;
+}
+
+.contact-form label {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+ul,ol {
+	color: white;
+}
+
+table, th, td {
+    border:1px solid transparent;
+    color: white;
+}
